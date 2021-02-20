@@ -1,0 +1,19 @@
+body {
+  background: skyblue;
+  font-family: 'Kalam', cursive;
+}
+
+h1{
+  text-align: center;
+}
+
+#image{
+  display:block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+
+#img-caption{
+  text-align: center;
+}
