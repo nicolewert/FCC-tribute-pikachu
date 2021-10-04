@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html id= "main">
-  <head>
+<html id="main">
+
+<head>
+  <title>My Tribute Page</title>
 
   <!-- CSS Style Sheet-->
   <link rel="stylesheet" href="styles.css">
@@ -14,8 +16,9 @@
 
   <!-- Icons -->
   <script src="https://kit.fontawesome.com/19100e7fd9.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
+</head>
+
+<body>
   <!-- Nav bar -->
   <nav>
     <ul class="side-nav-container">
@@ -40,29 +43,55 @@
       <span class="icons close-mark">X</span>
     </button>
 
-    <h1 id="title">Pikachu</h1>
-    <figure id ="img-div">
-      <img id = "image"
-        src="https://d.newsweek.com/en/full/822411/pikachu-640x360-pokemon-anime.webp?w=737&f=66ec2b8bdbaa3255c91911a8a1271e26"
-        alt="A cute photo of Pikachu, a yellow mouse-like electric-type pokemon">
-      <figcaption id="img-caption">The yellow electric-type pokemon Pikachu.</figcaption>
-    </figure>
+    <!-- Home -->
+    <section id="home">
+      <!-- Title -->
+      <h1 id="title">Pikachu</h1>
+      <figure id="img-div">
+        <img id="image"
+          src="https://d.newsweek.com/en/full/822411/pikachu-640x360-pokemon-anime.webp?w=737&f=66ec2b8bdbaa3255c91911a8a1271e26"
+          alt="A cute photo of Pikachu, a yellow mouse-like electric-type pokemon">
+        <figcaption id="img-caption">The yellow electric-type pokemon Pikachu.</figcaption>
+      </figure>
+    </section>
 
-    <div id="tribute-info">
-      <p>Pikachus are yellow mouse-like pokemons with brown stripes on their back and lightning-bolt shaped tails.
-        Pikachus can generate electricity from their cheeks which they can use to fight or knock food from trees.
-        Pikachu is evolved from the pokemon pichu upon sharing close friendship with a trainer.
-        Pikachu can evolve to Raichu if it uses a Thunderstone. Female Pikachu have tails with a heart shaped end while males have pointy ends.
-      </p>
+    <!-- About -->
+    <section id="about">
+      <div id="tribute-info">
+        <p>Pikachus are yellow mouse-like pokemons with brown stripes on their back and lightning-bolt shaped tails.
+          Pikachus can generate electricity from their cheeks which they can use to fight or knock food from trees.
+          Pikachu is evolved from the pokemon pichu upon sharing close friendship with a trainer.
+          Pikachu can evolve to Raichu if it uses a Thunderstone. Female Pikachu have tails with a heart shaped end
+          while
+          males have pointy ends.
+        </p>
+      </div>
+    </section>
+
+    <!-- Likes -->
+    <section id="likes">
       <p>Things Pikachus love:</p>
       <ul>
         <li>Ketchup</li>
         <li>Strawberries</li>
         <li>Saying "Pika Pika"</li>
       </ul>
-    </div>
+    </section>
+
+    <!-- Additional Resources-->
+    <section id="additional-resources">
+      <p>Find out more about this cute pokemon on <a id="tribute-link" href="https://en.wikipedia.org/wiki/Pikachu"
+          target="_blank">Wikipedia</a> and on other Pikachu lover's sites like
+        <a id="tribute-link-2" href="https://www.andrew.cmu.edu/user/adowling/pokemon!/pikachu.html">here</a>!</p>
+    </section>
+
+  </div>
 
   <!--Javascript-->
   <script src="index.js"></script>
+
+  <!-- Free Code Camp Requirement Test Script-->
+  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" target="_blank"></script> -->
+</body>
 
 </html>
