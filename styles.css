@@ -25,6 +25,7 @@ nav{
   width: 60%; 
   transform:translateX(100%); 
   transition: transform ease-in-out 250ms; 
+  z-index: 2; 
 }
 
 .side-nav-container{
