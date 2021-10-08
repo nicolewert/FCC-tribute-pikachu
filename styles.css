@@ -1,14 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background: skyblue;
-  font-family: 'Kalam', cursive;
+  background:#A5DD94 ;
+  font-family: 'Reem Kufi', sans-serif;
+  overflow-x: hidden;
 }
 
-h1{
-  text-align: center;
+h2{
+  font-size: 1rem;
 }
 
-/* TODO check cross-browser responsiveness */
-/* TODO media queries for larger screen sizes-- decide button,fontsize& spacing */
+section{
+  margin-bottom: 10%;
+}
+
 /* Navbar */
 nav{
   position: fixed;
@@ -76,29 +84,72 @@ button{
   display: none;
 }
 .open button{
-  right:62%; 
+/* Home Page */
+section#home .grid{
+  display: grid;
+  height: 100vh; 
+  width: 100vw; 
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: 20% 15% 45% 20%; 
+  overflow: hidden;
 }
 
-#image{
-  display:block;
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto 0 auto;
+.flexbox{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
 }
 
-#img-caption{
-  text-align: center;
+img{
+  object-fit: contain;
 }
 
+.lake-item{
+  grid-column: 1/ span 2; 
+  grid-row: 1; 
+  justify-content: start;
+  align-self: start; 
+}
 
-/* Desktop/Laptop Devices */
-@media screen and (min-width: 769px) {
-  nav{
-    width: 20%; 
-  }
-  .open button{
-    right:22%; 
-  }
+#lake{
+  width: 80%; 
+  /* firefox 100% */
+}
+
+.logo-item{
+  grid-column: 1/span 3; 
+  grid-row: 2; 
+  z-index: 1;
+}
+
+#logo{
+  width: 45%;
+}
+
+.pikachu-bush-item{
+  grid-column: 1/span 3;
+  grid-row: 3/ span 1;
+}
+
+#pikachu-img{
+  width: 45%;
+}
+
+.textbox-item{
+  grid-column: 1/ span 3; 
+  grid-row: 4/ span 1; 
+}
+
+.textbox-message{
+  position: absolute; 
+  font-weight: normal;
+  word-break: break-word;
+  max-width: 40%; 
+}
+
+#welcome-textbox{
+  width: 45%;
+}
   .icons{
     font-size: 1.5rem;
   }
