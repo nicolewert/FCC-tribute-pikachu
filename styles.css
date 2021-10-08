@@ -32,7 +32,7 @@ nav{
   display: flex;
   flex-flow: column; 
   background-color: #67A68B; 
-  padding:2rem;  
+  padding:25%;  
   list-style:none;
   margin:0;
   height: 100vh; 
@@ -40,7 +40,7 @@ nav{
 }
 
 .nav-item{ 
-  margin: 1.2rem;
+  margin: 10%;
   text-align: left;
 }
 
@@ -51,7 +51,7 @@ nav{
 .nav-link{
   text-decoration: none; 
   color: black; 
-  font-family: 'Reem Kufi', sans-serif;
+  font-size: 1.5rem;
 }
 
 .nav-link:hover{
@@ -62,11 +62,14 @@ button{
   background: transparent;
   border: 0; 
   position: fixed;
-  right: 2%;
+  right: 5%;
+  top: 2%; 
 }
+
 .icons{
   color: #67A68B;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  -webkit-text-stroke: .5px #707674e0;
 }
 
 .close-mark{
@@ -79,12 +82,18 @@ button{
 
 .open .close-mark{
   display: block; 
+  position: fixed;
 }
 
 .open .hamburger{
   display: none;
 }
+
 .open button{
+  right:68%; 
+  top: 1.5%; 
+}
+
 /* Home Page */
 section#home .grid{
   display: grid;
