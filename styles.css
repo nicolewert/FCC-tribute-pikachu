@@ -249,10 +249,6 @@ section#about .grid:last-of-type{
 }
 
 @media(min-width: 550px){
-  section#home .grid{
-    grid-template-rows: 15% 10% 45% 22%;
-    gap: 2%; 
-  }
 
 #pikachu-img{
   width: 30%;
@@ -265,11 +261,20 @@ section#about .grid:last-of-type{
 .textbox-message{
   max-width: 25%;
 }
+
+.about-textbox{
+  width: 55%; 
+}
+
+.message-item{
+  grid-column: 1/span 3;
+  grid-row: 2; 
+}
 }
 
 @media(min-width: 700px){
-  h2{
-    font-size: 1.3rem;
+  .space{
+    margin-bottom: 5%; 
   }
 
   section#home .grid{
@@ -297,6 +302,7 @@ section#about .grid:last-of-type{
   .pikachu-bush-item{
     grid-column: 4/ span 2;
     grid-row: 1/span 2;  
+    margin-right: 4%; 
   }
 
   #pikachu-img{
@@ -308,8 +314,8 @@ section#about .grid:last-of-type{
   }
 
   #welcome-textbox{
-    width: 50%; 
-  }
+    width: 50%;
+  } 
 }
 
  /* create change navbar animation at 1000px & horizontal navigation*/
@@ -330,7 +336,7 @@ section#about .grid:last-of-type{
   }
 
   #logo{
-    width: 90%; 
+    width: 65%; 
   }
 
   .pikachu-bush-item{
@@ -338,7 +344,7 @@ section#about .grid:last-of-type{
   }
   
   #pikachu-img{
-    width: 70%
+    margin-top: 10%; 
   }
 
   .textbox-item{
