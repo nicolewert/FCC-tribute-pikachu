@@ -212,8 +212,6 @@ section#about .grid:last-of-type{
 
 .message-item{
   grid-column: 1/span 3;
-    grid-column: 1/span 3; 
-  grid-column: 1/span 3;
   grid-row: 2/span 2; 
 }
 
