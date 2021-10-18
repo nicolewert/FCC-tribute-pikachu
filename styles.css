@@ -316,9 +316,42 @@ section#about .grid:last-of-type{
   #welcome-textbox{
     width: 50%;
   } 
+
+  /* About Section */
+  section#about .grid{
+    grid-template-columns: repeat(4, minmax(0, 1fr)); 
+    grid-template-rows: repeat(3, minmax(0, 1fr));  
+  }
+
+  .lightning-bush{
+    grid-column: 2/span 2;
+  }
+
+  #LB-img{
+    width: 30%; 
+  }
+
+  .about-item1{
+    grid-column: 1/ span 2; 
+    grid-row: 2; 
+  }
+
+  .about-item2{
+    grid-column: 2/ span 2; 
+    grid-row: 3; 
+  }
+
+  .about-item3{
+    grid-column: 3/ span 2; 
+    grid-row: 2; 
+  }
+
+  #lake-about{
+    width: 50%; 
+  }
+
 }
 
- /* create change navbar animation at 1000px & horizontal navigation*/
 @media (min-width: 1000px){
 
   section#home .grid{
@@ -351,11 +384,9 @@ section#about .grid:last-of-type{
     grid-row: 3; 
   }
 
-  #welcome-textbox{
-    width: 45%; 
+  /* About Section */
+  #lake-about{
+    width: 40%; 
   }
-  
-  .textbox-message{
-    max-width: 20%; 
-  }
+
 }
