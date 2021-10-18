@@ -130,8 +130,8 @@ img{
 }
 
 #lake{
-  width: 80%; 
-  /* firefox 100% */
+  min-width: 226px;
+  width: 80%;
 }
 
 .logo-item{
@@ -141,7 +141,8 @@ img{
 }
 
 #logo{
-  width: 45%;
+  min-width: 200px; 
+  width: 40%;
 }
 
 .pikachu-bush-item{
@@ -151,6 +152,7 @@ img{
 
 #pikachu-img{
   width: 45%;
+  min-width: 250px; 
 }
 
 .textbox-item{
@@ -162,11 +164,13 @@ img{
   position: absolute; 
   font-weight: normal;
   word-break: break-word;
-  max-width: 40%; 
+  min-width: 150px; 
+  width: 50%;
 }
 
 #welcome-textbox{
   width: 45%;
+  min-width: 278px; 
 }
 
 /* TODO cross-browser horizontal responsiveness*/
