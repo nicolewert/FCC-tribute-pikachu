@@ -390,6 +390,10 @@ section#likes .grid{
     width: 50%; 
   }
 
+  /* Likes Section */
+  #trees-img-1{
+    width: 17%; 
+  }
 }
 
 @media (min-width: 1000px){
@@ -429,4 +433,8 @@ section#likes .grid{
     width: 40%; 
   }
 
+  /* Likes Section */
+  #trees-img-1{
+    width: 16%; 
+  }
 }
