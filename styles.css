@@ -180,7 +180,7 @@ section#about .grid{
 }
 
 .about-textbox{
-  width: 70%; 
+  width: 65%; 
   min-width: 250px; 
 }
 
@@ -299,11 +299,11 @@ section#likes .grid{
 }
 
 .textbox-message{
-  max-width: 25%;
+  max-width: 20%;
 }
 
 .about-textbox{
-  width: 55%; 
+  width: 50%; 
 }
 
 .message-item{
