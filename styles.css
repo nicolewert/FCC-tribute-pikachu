@@ -280,12 +280,20 @@ section#likes .grid{
   min-width: 233px; 
   width: 30%; 
 }
-  #welcome-textbox{
-    width: 40%;
-  }
-  .textbox-message{
-    max-width: 30%; 
-  }
+
+/* Additional Resources Section */
+.house{
+  align-self: flex-end;
+}
+
+#house-img{
+  width: 30%; 
+}
+
+.more-info{
+  text-align: center;
+  font-size: 1rem;
+  max-width: 60%;
 }
 
 @media(min-width: 550px){
