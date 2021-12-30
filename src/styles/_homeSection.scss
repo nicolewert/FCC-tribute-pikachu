@@ -1,60 +1,22 @@
-/* Home Page */
-section#home .grid{ 
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    grid-template-rows: 20% 10% 50% 20%; 
-  }
-  
-  img{
-    object-fit: contain;
-  }
-  
-  .lake-item{
-    grid-column: 1/ span 2; 
-    grid-row: 1; 
-    justify-content: start;
-    align-self: start; 
-  }
-  
-  #lake{
-    min-width: 226px;
-    width: 80%;
-  }
-  
-  .logo-item{
-    grid-column: 1/span 3; 
-    grid-row: 2; 
-    z-index: 1;
-  }
-  
-  #logo{
-    /* min-width: 200px;  */
-    width: 40%;
-  }
-  
-  .pikachu-bush-item{
-    grid-column: 1/span 3;
-    grid-row: 3/ span 1;
-  }
-  
-  #pikachu-img{
-    width: 40%;
-    /* min-width: 250px;  */
-  }
-  
-  .textbox-item{
-    grid-column: 1/ span 3; 
-    grid-row: 4/ span 1; 
-  }
-  
-  .textbox-message{
-    position: absolute; 
-    font-weight: normal;
-    word-break: break-word;
-    /* min-width: 150px;  */
-    width: 35%;
-  }
-  
-  #welcome-textbox{
-    width: 45%;
-    /* min-width: 278px;  */
-  }
+section#home .flex {
+  justify-content: normal;
+}
+
+#lake {
+  align-self: flex-start;
+  height: 20vh;
+}
+
+#logo,
+#pikachu-img {
+  align-self: center;
+}
+
+#logo {
+  height: 10vh;
+}
+
+#pikachu-img {
+  margin: 2vh;
+  height: 40vh;
+}
