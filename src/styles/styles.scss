@@ -35,15 +35,24 @@ html, body {
     overflow: hidden; 
   }
   
-  .flexbox{
+.textbox-item {
+  align-self: center;
+  position: relative;
     display: flex; 
     justify-content: center;
-    align-items: center;
-    margin: 0; 
   }
   
-  img{
-    display:block; 
+.textbox {
+  max-height: 18vh;
   }
 
+.textbox-message {
+  font-size: 2vh;
+  text-align: left;
+  z-index: 1;
+  overflow-wrap: break-word;
+  position: absolute;
+  align-self: center;
+  margin: 0 12%;
+}
   
