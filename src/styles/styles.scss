@@ -1,42 +1,42 @@
-@use 'homeSection';
-@use 'aboutSection'; 
-@use 'likesSection';
-@use 'additionalResources';  
-@use 'mediaQueries';
-@use 'navbar'; 
+@use "homeSection";
+@use "aboutSection";
+@use "likesSection";
+@use "additionalResources";
+@use "mediaQueries";
+@use "navbar";
 
 $backgroundGreen: #a5dd94;
 
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
   background: $backgroundGreen;
   font-family: "Reem Kufi", sans-serif;
-    overflow-x: hidden;
+  overflow-x: hidden;
   font-size: 2vh;
-  }
-  
+}
+
 .flex {
   display: flex;
   flex-direction: column;
-    height: 100vh; 
+  height: 100vh;
   justify-content: space-evenly;
-    overflow: hidden; 
-  }
-  
+  overflow: hidden;
+}
+
 .textbox-item {
   align-self: center;
   position: relative;
-    display: flex; 
-    justify-content: center;
-  }
-  
+  display: flex;
+  justify-content: center;
+}
+
 .textbox {
   max-height: 18vh;
-  }
+}
 
 .textbox-message {
   font-size: 2vh;
@@ -47,4 +47,3 @@ $backgroundGreen: #a5dd94;
   align-self: center;
   margin: 0 12%;
 }
-  
