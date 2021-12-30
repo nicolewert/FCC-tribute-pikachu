@@ -1,0 +1,204 @@
+section#home .flex {
+  justify-content: normal;
+}
+
+#lake {
+  align-self: flex-start;
+  height: 20vh;
+}
+
+#logo,
+#pikachu-img {
+  align-self: center;
+}
+
+#logo {
+  height: 10vh;
+}
+
+#pikachu-img {
+  margin: 2vh;
+  height: 40vh;
+}
+
+#LB-img {
+  align-self: center;
+  height: 15vh;
+}
+
+#large-bush {
+  align-self: flex-start;
+  height: 40vh;
+}
+
+#lake-about {
+  align-self: flex-end;
+  height: 40vh;
+}
+
+#middle-message {
+  width: 70%;
+  align-self: center;
+  text-align: center;
+}
+
+#trees-img-1 {
+  align-self: flex-start;
+  height: 20vh;
+  transform: scaleX(-1);
+}
+
+.list {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 2;
+}
+
+.list-title {
+  grid-column: 1/span 2;
+  grid-row: 1;
+}
+
+.list-items {
+  grid-column: 2/span 3;
+  grid-row: 2;
+}
+
+#trees-img-2 {
+  align-self: flex-end;
+  height: 20vh;
+}
+
+#house-img,
+#more-info {
+  align-self: center;
+}
+
+#house-img {
+  height: 20vh;
+}
+
+#more-info {
+  text-align: center;
+  width: 70vw;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60%;
+  transform: translateX(100%);
+  transition: transform ease-in-out 250ms;
+  z-index: 2;
+}
+
+.side-nav-container {
+  display: flex;
+  flex-flow: column;
+  background-color: #67a68b;
+  padding: 25%;
+  list-style: none;
+  margin: 0;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+.nav-item {
+  margin: 10%;
+  text-align: left;
+}
+
+.nav-item:first-child {
+  margin-top: 25%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.nav-link:hover {
+  color: #fbd140;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  position: fixed;
+  right: 5%;
+  top: 2%;
+  z-index: 2;
+}
+
+.icons {
+  color: #67a68b;
+  font-size: 3rem;
+  -webkit-text-stroke: 0.5px #707674e0;
+}
+
+.close-mark {
+  display: none;
+}
+
+.open nav {
+  transform: translateX(0);
+}
+
+.open .close-mark {
+  display: block;
+  position: fixed;
+}
+
+.open .hamburger {
+  display: none;
+}
+
+.open button {
+  right: 68%;
+  top: 1.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #a5dd94;
+  font-family: "Reem Kufi", sans-serif;
+  overflow-x: hidden;
+  font-size: 2vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.textbox-item {
+  align-self: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.textbox {
+  max-height: 18vh;
+}
+
+.textbox-message {
+  font-size: 2vh;
+  text-align: left;
+  z-index: 1;
+  overflow-wrap: break-word;
+  position: absolute;
+  align-self: center;
+  margin: 0 12%;
+}
+/*# sourceMappingURL=index.c0a23795.css.map */

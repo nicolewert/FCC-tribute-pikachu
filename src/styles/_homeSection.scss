@@ -1,0 +1,22 @@
+section#home .flex {
+  justify-content: normal;
+}
+
+#lake {
+  align-self: flex-start;
+  height: 20vh;
+}
+
+#logo,
+#pikachu-img {
+  align-self: center;
+}
+
+#logo {
+  height: 10vh;
+}
+
+#pikachu-img {
+  margin: 2vh;
+  height: 40vh;
+}

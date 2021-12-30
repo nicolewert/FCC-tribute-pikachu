@@ -1,0 +1,159 @@
+
+@media(min-width: 550px){
+
+    #welcome-textbox{
+      width: 40%;
+    }
+    
+    .textbox-message{
+      max-width: 60%;
+    }
+    
+    .about-textbox{
+      width: 50%; 
+    }
+    
+    .message-item{
+      grid-column: 1/span 3;
+      grid-row: 2; 
+    }
+    }
+    
+    @media(min-width: 700px){
+      .space{
+        margin-bottom: 5%; 
+      }
+    
+      section#home .grid{
+        grid-template-rows: 50% 50%;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+      .lake-item{
+        grid-column: 1/ span 3;
+      }
+    
+      #lake{
+        width: 90%; 
+      }
+    
+      .logo-item{
+        grid-column: 2/ span 2; 
+        grid-row: 1; 
+        align-self: flex-end;
+      }
+    
+      #logo{
+        width: 60%; 
+      }
+    
+      .pikachu-bush-item{
+        grid-column: 4/ span 2;
+        grid-row: 1/span 2;  
+        margin-right: 4%; 
+      }
+    
+      #pikachu-img{
+        width: 90%
+      }
+    
+      .textbox-item{
+        grid-row: 2/ span 2; 
+      }
+    
+      #welcome-textbox{
+        width: 50%;
+      } 
+    
+      .textbox-message{
+        width: 20%; 
+      }
+    
+      /* About Section */
+      section#about .grid{
+        grid-template-columns: repeat(4, minmax(0, 1fr)); 
+        grid-template-rows: repeat(3, minmax(0, 1fr));  
+      }
+    
+      .lightning-bush{
+        grid-column: 2/span 2;
+      }
+    
+      #LB-img{
+        width: 30%; 
+      }
+      
+      .about-textbox{
+        width: 65%;
+      }
+    
+      p.textbox-message{
+        width: 25%; 
+      }
+    
+      .about-item1{
+        grid-column: 1/ span 2; 
+        grid-row: 2; 
+      }
+    
+      .about-item2{
+        grid-column: 2/ span 2; 
+        grid-row: 3; 
+      }
+    
+      .about-item3{
+        grid-column: 3/ span 2; 
+        grid-row: 2; 
+      }
+    
+      #lake-about{
+        width: 50%; 
+      }
+    
+      /* Likes Section */
+      #trees-img-1{
+        width: 17%; 
+      }
+    }
+    
+    @media (min-width: 1000px){
+    
+      section#home .grid{
+        grid-template-rows: repeat(3, minmax(0, 1fr));
+      }
+    
+      #lake{
+        width: 75%; 
+      }
+    
+      .logo-item{
+        grid-column: 2/span 2;
+        grid-row: 2; 
+        align-self: flex-start; 
+      }
+    
+      #logo{
+        width: 65%; 
+      }
+    
+      .pikachu-bush-item{
+        grid-row: 1/ span 3; 
+      }
+      
+      #pikachu-img{
+        margin-top: 10%; 
+      }
+    
+      .textbox-item{
+        grid-row: 3; 
+      }
+    
+      /* About Section */
+      #lake-about{
+        width: 40%; 
+      }
+    
+      /* Likes Section */
+      #trees-img-1{
+        width: 16%; 
+      }
+    }
