@@ -1,47 +1,26 @@
-/* Likes Section */
-section#likes .grid{
-    grid-template-rows: repeat(6, minmax(0, 1fr));
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  
-  .trees-1{
-    grid-column: 1/ span 3;
-    grid-row: 1; 
-    justify-content: flex-start;
-    align-self: flex-start; 
-  }
-  
-  #trees-img-1{
-    min-width: 129px; 
-    width: 20%; 
-  }
-  
-  .list-title{
-    grid-column: 1/ span 2;
-    grid-row: 3; 
-    align-self: flex-end;
-  }
-  
-  #likes-title{
-    font-size: 1rem; 
-  }
-  
-  .likes-list{
-    grid-column: 2/ span 2; 
-    grid-row: 4; 
-    align-items: flex-start;
-    justify-content: flex-start;
-  }
-  
-  .trees-2{
-    grid-column: 1/ span 3; 
-    grid-row: 6; 
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-  
-  #trees-img-2{
-    min-width: 233px; 
-    width: 30%; 
-  }
-  
+#trees-img-1 {
+  align-self: flex-start;
+  height: 20vh;
+  transform: scaleX(-1);
+}
+
+.list {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 2;
+}
+.list-title {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.list-items {
+  grid-column: 2 / span 3;
+  grid-row: 2;
+}
+
+#trees-img-2 {
+  align-self: flex-end;
+  height: 20vh;
+}
