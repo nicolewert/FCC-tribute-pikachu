@@ -1,0 +1,26 @@
+#trees-img-1 {
+  align-self: flex-start;
+  height: 20vh;
+  transform: scaleX(-1);
+}
+
+.list {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 2;
+}
+.list-title {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.list-items {
+  grid-column: 2 / span 3;
+  grid-row: 2;
+}
+
+#trees-img-2 {
+  align-self: flex-end;
+  height: 20vh;
+}

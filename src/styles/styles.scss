@@ -1,0 +1,49 @@
+@use "homeSection";
+@use "aboutSection";
+@use "likesSection";
+@use "additionalResources";
+@use "mediaQueries";
+@use "navbar";
+
+$backgroundGreen: #a5dd94;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $backgroundGreen;
+  font-family: "Reem Kufi", sans-serif;
+  overflow-x: hidden;
+  font-size: 2vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.textbox-item {
+  align-self: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.textbox {
+  max-height: 18vh;
+}
+
+.textbox-message {
+  font-size: 2vh;
+  text-align: left;
+  z-index: 1;
+  overflow-wrap: break-word;
+  position: absolute;
+  align-self: center;
+  margin: 0 12%;
+}
